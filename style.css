@@ -53,7 +53,7 @@ nav ul li a::after{
     content: '';
     width: 0%;
     height: 3px;
-    background: #ff004f;
+    background: aqua;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -132,7 +132,7 @@ nav ul li a:hover::after{
     content: '';
     width: 70px;
     height: 3px;
-    background: #ff004f;
+    background: aqua;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -196,7 +196,7 @@ nav ul li a:hover::after{
     display: inline-block;
 }
 .services-list div:hover{
-    background: #ff004f;
+    background: aqua;
     transform: translateY();
 }
 /*------portfolio-------*/
@@ -223,7 +223,7 @@ nav ul li a:hover::after{
 .layer{
     width: 100%;
     height: 0%;
-    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6), aqua);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -245,7 +245,7 @@ nav ul li a:hover::after{
 }
 .layer a{
     margin-top: 20px;
-    color: #ff004f;
+    color: aqua;
     text-decoration: 18px;
     font-size: 18px;
     line-height: 60px;
@@ -265,14 +265,14 @@ nav ul li a:hover::after{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid aqua;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
     color: white;
 }
 .btn:hover{
-    background: #ff004f;
+    background: aqua;
     transition: 0.5s;
 }
 /*--------------CONTACT------------*/
@@ -286,7 +286,7 @@ nav ul li a:hover::after{
     margin-top: 30px;
 }
 .contact-left p i{
-    color: #ff004f;
+    color: aqua;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -308,12 +308,12 @@ nav ul li a:hover::after{
     transition: transform(0.5s);
 }
 .social-icons a:hover{
-    color: #ff004f;
+    color: aqua;
     transform: translateY(-5px);
 }
 .btn.btn2{
     display: inline-block;
-    background: #ff004f
+    background: aqua;
 }
 .contact-right form{
     width: 100%;
@@ -372,7 +372,7 @@ nav .fa-solid{
         font-size: 35px;
     }
     nav ul {
-        background: #ff004f;
+        background: aqua;
         position: fixed;
         top: 0;
         right: -200px;
