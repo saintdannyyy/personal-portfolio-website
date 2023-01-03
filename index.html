@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compactible" content="IE=edge">
+    <title> Saintdannyyy </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-----navbar-->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img  src="img/saintdannyyylogo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <!-----home section-->
+            <div class="header-text">
+                <p>Website Developer</p>
+                <h1>Hi, I am <span>ADDO</span><br/>Daniel from Ghana.</h1>
+                <p><a href="#contact">Let's talk</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-----about section-->
+    <div id="about">
+        <div class="container">
+            <div id="row">
+                <div class="about-col-1">
+                    <img src="img/aboutme.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.A responsive design makes your website accessible to all users, regardless of their device.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul> 
+                            <li><span>UI/UX</span><br/>
+                            Designing Web/App Interfaces</li>
+
+                            <li><span>Web Development</span><br/>
+                            Web App Development</li>
+
+                            <li><span>Blogging</span><br/>
+                            Content creation on trending issues</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022</span><br/>
+                            UI/UX Design training at Blue Code Hack Club</li>
+
+                            <li><span>2022</span><br/>
+                            Coding training at Blue Code Hack Club</li>
+
+                            <li><span>2022</span><br/>
+                            Ethical Hacking training at Blue Code Hack Club</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022- Curreent</span><br/>
+                            BSc. Computer Science at University of Ghana</li>
+
+                            <li><span>2019-2021</span><br/>
+                            General Science at St. Thomas Aquinas Senior High</li>
+
+                            <li><span>2016-2018</span><br/>
+                            Basic School at Scared Heart School Complex</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------SERVICES------>
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Professional website design is the one that maintains an appropriate balance in the different elements and ensures consistency and integrity of the design.
+                        Importance of website design; Website design has become inevitable to do business and highlighting its online presence in the modern competitive markets</p>
+                    <a href="https://wa.link/elq5iy" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI/UX Design is a part and parcel of the product development process. It is what decides the future or success of your product. The best approach for a successful UI UX design is by combining the structure, content, and the user experience in a certain way, so that it enables your business to accomplish the goals.</p>
+                    <a href="https://wa.link/elq5iy" target="_blank">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----PORTFOLIO-------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>   
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/Website-Design.png">
+                    <div class="layer">
+                        <h3>Web Designing</h3>
+                        <p>Professional website design is the one that maintains an appropriate balance in the different elements and ensures consistency and integrity of the design.</p>
+                        <a href="https://wa.link/elq5iy"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/music.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Click on the link down to view a sample of my  UI/UX works</p>
+                        <a href="music.jpg" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/blogger.png">
+                    <div class="layer">
+                        <h3>Blogging Website</h3>
+                        <p>Click the link below to view my blogger website</p>
+                        <a href="https://saintdannyyy.blogspot.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div> 
+            <a href="food.jpg" class="btn">See more</a>        
+        </div>
+    </div>
+<!-----------CONTACT-------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><a href="mailto:saintdannyyy@gmail.com?subject=RE:Portfolio Website;"><i class="fa-solid fa-paper-plane"></i>saintdannyyy@gmail.com</a></p>
+                <p><a href="tel:0202248817"><i class="fa-solid fa-phone"></i>0202248817</a></p>
+                <div class="social-icons">
+                    <!-- Add font awesome icons -->
+                    <a href="https://wa.link/qs0n1o" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/saintdannyyy/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/saint-dannyyy-71b06b24a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.snapchat.com%2Fadd%2Fsaintdannyyy%3Fshare_id%3DP3815X5M9D4%26locale%3Den-GB%26fbclid%3DIwAR1M0T0Vh9ihkAFVcYrwf7ProWXDeoA5gaKdR0enuK-d7Igo6peXDPPUbek&h=AT1vRLX_IJ4Y8htr_AQiaUPQOzJoumxGjOtnzVu0xBAHIR16qZXKs5Oda_PfgEuQjfkl2Nb5-4pNq772YSeS0ASBPKxr7e1ZCrvqgdF9raUNk_M4uDZvu7QOzAqy0w" target="_blank"><i class="fa-brands fa-snapchat"></i></a>
+                    <a href="https://twitter.com/saintdannyyy" target="_blank"><i class="fa-brands fa-twitter"></i></i></a>
+                    <a href="https://www.youtube.com/channel/UCk0l0ueGQU-1mX0WPgobGuw/featured" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ⓒ 2022 saintdannyyy  .</p>
+    </div>
+</div>
+
+
+    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu= document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+  
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzK5FRsAQ-58aXm3RQtIzPMG41NI0Ims1Dmam6rOAqOPpThipmKz3TGIAjBByNwmHnC/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully!"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
