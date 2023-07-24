@@ -308,9 +308,27 @@ nav ul li a:hover::after{
     transition: transform(0.5s);
 }
 .social-icons a:hover{
-    color: blue;
     transform: translateY(-5px);
 }
+.fa-whatsapp:hover {
+    color: green;
+}
+.fa-instagram:hover{
+    color: #5f084c;
+}
+.fa-linkedin:hover{
+    color: blue;
+}
+.fa-snapchat:hover{
+    color: yellow;
+}
+.fa-twitter:hover{
+    color: blue;
+}
+.fa-youtube:hover{
+    color: red;
+}
+
 .btn.btn2{
     display: inline-block;
     background: blue;
